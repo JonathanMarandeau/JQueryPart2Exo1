@@ -10,8 +10,10 @@
         <button type="button" name="button" id="clique-moi" >Clique-moi !</button>
       </form>
     <script>
-      $('#clique-moi').click(function(){//On crée la boite de dialogue qui va s'enclancher en appuyant sur le bouton
-          alert("Vous venez de cliquer sur le bouton");//L'écriture dans la boite de dialogue
+      $(function(){
+        $('#clique-moi').click(function(){//On crée la boite de dialogue qui va s'enclancher en appuyant sur le bouton
+            alert("Vous venez de cliquer sur le bouton");//L'écriture dans la boite de dialogue
+        });
       });
     </script>
   </body>
